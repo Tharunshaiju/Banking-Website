@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Poppins", serif;
+}
+
+.btn{
+    background-color: deeppink;
+    width: 100px;
+    height: 40px;
+}
+
+.btn2{
+    background-color: deeppink;
+    width: 180px;
+    height: 50px;
+}
+
+.btn3{
+    border-color: deeppink;
+    border-width: 2px;
+    width: 180px;
+    height: 50px;
+}
+
+.btn4{
+    background-color: deeppink;
+    width: 150px;
+    height: 50px;
+}
+
+.boxcol{
+    background-color: lightpink;
+}
+
+.bg-color{
+    background-color: #FCE0EF;
+}
+
+.effect{
+    @apply hover:text-pink-500;
+}
+
+.fill{
+    @apply p-3 w-80 rounded-lg border-4 ;
+}
+
+html{
+    @apply scroll-smooth
+}
